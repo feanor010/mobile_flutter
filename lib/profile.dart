@@ -55,11 +55,6 @@ class _ProfileState extends State<Profile> with SingleTickerProviderStateMixin {
               ),
               const Text('Екатерина',
                   style: TextStyle(fontWeight: FontWeight.bold)),
-              // const Row(children: [
-              //   Text("Профиль"),
-              //   Padding(padding: EdgeInsets.only(left: 10)),
-              //   Text("Настройки")
-              // ])
             ],
           ),
           bottom: TabBar(
@@ -166,15 +161,6 @@ class _ProfileState extends State<Profile> with SingleTickerProviderStateMixin {
                   )
                 ],
               ),
-              // Wrap(
-              //   children: [
-              //     Tag(),
-              //     Text("Элемент 3"),
-              //     Text("Элемент 4"),
-              //     Text("Элемент 5"),
-              //     Text("Элемент 6"),
-              //   ],
-              // )
               const Padding(padding: EdgeInsets.only(top: 20))
             ],
           ),
