@@ -23,10 +23,6 @@ class Material extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green,
-          //Prodisp
-        ),
         useMaterial3: true,
       ),
       home: const Profile(),
